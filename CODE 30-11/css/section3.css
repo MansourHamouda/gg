@@ -1,0 +1,68 @@
+#about-us {
+  height: 750px;
+  background-color: var(--lightgrey-color);
+  position: relative;
+}
+
+.about-us-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.info-about-us {
+  text-align: end;
+  margin-top: 80px;
+  padding-left: 50px;
+  line-height: 150%;
+}
+
+.about-us-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin: 20px 0;
+}
+
+.about-us-title div {
+  height: 5px;
+  width: 80px;
+  background-color: var(--yellow-color);
+}
+
+.img-about-us {
+  filter:saturate(1.2);
+  position: absolute;
+  object-fit: cover;
+  text-align: center;
+  left: 0;
+  height: 100%;
+  width: 50%;
+}
+
+@media (max-width: 680px) {  
+  .about-us-container {
+    grid-template-columns: 100%;
+    grid-template-rows: 45% 55%;
+  }
+
+  .info-about-us {
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 0;
+    line-height: 150%;
+  }
+
+  .about-us-title {
+    align-items: center;
+  }
+  
+  .img-about-us {
+    position: absolute;
+    object-fit: cover;
+    text-align: center;
+    left: 0;
+    height: 45%;
+    width: 100%;
+  }
+}

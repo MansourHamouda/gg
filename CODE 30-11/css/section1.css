@@ -1,0 +1,32 @@
+#home{
+  height: 700px;
+  background-color: var(--yellow-color);
+  background-image: url("../images/main-section-image-2.jpg");
+  background-position: top; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  position: relative;
+  }
+
+.main-solgan{
+  font-size:50px;
+  font-weight: 600;
+  color:var(--blue-color);
+  position:absolute;
+  left:80px;
+  top:250px;
+}
+
+.company-name-1{
+  font-size:18px;
+  position: absolute;
+  left:90px ;
+  top:345px;
+}
+
+.company-name-2{
+  font-size:18px;
+  position: absolute;
+  left:140px ;
+  top:370px;
+}

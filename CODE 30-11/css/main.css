@@ -1,0 +1,50 @@
+/* Start Variables */
+:root {
+  --blue-color: #003961ff;
+  --yellow-color: #ffcb04ff;
+  --lightgrey-color: #f2f2f2ff;
+  --header-height: 80px;
+}
+/* End Variables */
+
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+  margin-top: var(--header-height);
+  color: var(--blue-color);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+
+html {
+  scroll-behavior: smooth;
+}
